@@ -20,12 +20,11 @@ const Header = () => {
   const navigation = [
     { name: 'Home', href: '/' },
     { name: 'About', href: '#about' },
-    // { name: 'Experience', href: '#experience' },
     { name: 'Projects', href: '#projects' },
     { name: 'Services', href: '#services' },
     { name: 'Contact', href: '#contact' },
   ];
-  
+
   return (
     <header className="fixed w-full bg-white/80 dark:bg-dark-100/80 backdrop-blur-sm z-50">
       <nav className="container mx-auto px-6 py-4">
