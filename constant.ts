@@ -7,7 +7,7 @@ export const profileData: IProfile = {
         subtitle: "Building scalable web applications with modern technologies",
         resume: "https://drive.google.com/file/d/1hhp7Znc7_VzXRjF7yOpW0ApU6AssyJgU/view?usp=drivesdk",
         social_links: {
-            github: "https://github.com/Muhammadahmedanis",
+            github: "https://github.com/Muhammad-Ahmed-Official",
             linkedin: "https://www.linkedin.com/in/muhammad-ahmed-88b843202",
         },
     },
@@ -17,12 +17,12 @@ export const profileData: IProfile = {
             {
                 icon: "Palette",
                 title: "Frontend Development",
-                skills: ["React.js", "Next.js", "TailwindCSS", "Bootstrap", "Ant Design", "Material UI"],
+                skills: ["React.js", "Next.js", "TypeScript", "Shadcn", "TailwindCSS", "Bootstrap", "Ant Design", "Material UI"],
             },
             {
                 icon: "Server",
                 title: "Backend Development",
-                skills: ["Node.js", "Express.js", "MongoDB", "Firebase", "Cloudinary", "ImageKit"],
+                skills: ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "Firebase", "Redis", "BullMQ", "Cloudinary", "ImageKit"],
             },
             {
                 icon: "Code2",
@@ -56,14 +56,24 @@ export const profileData: IProfile = {
     ],
     // *************
     projects: [
+         {
+            title: "Ai Medical Agent",
+            description: "Reimagining healthcare with AI — AI Medical Assistance, a SaaS platform where patients chat with an AI-powered doctor agent in real time, automatically generating clear, structured medical reports for faster, smarter care.",
+            images: ["/assets/AI Medical Agent.png"],
+            technologies: ["Full Stack", "Next.js", "PostgreSQL", "Node.js", "Clerk", "Gemini Api", "Image Kit"],
+            links: {
+                live: "https://aihealthagent.vercel.app",
+                github: "https://github.com/Muhammad-Ahmed-Official/aihealthagent"
+            }
+        },
         {
             title: "Blogging Site",
             description: "A feature-rich MERN blogging platform for seamless reading, writing, and management with modern design and smooth performance.",
             images: ["/assets/Blogging Site Mockup.png"],
             technologies: ["MERN", "React.js", "MongoDB", "Express.js", "Node.js", "React Query", "Cloudinary"],
             links: {
-                live: "https://blog-spark.vercel.app/",
-                github: "https://github.com/Muhammadahmedanis/BlogSpark.git"
+                live: "https://blog-spark.vercel.app",
+                github: "https://github.com/Muhammad-Ahmed-Official/BlogSpark.git"
             }
         },
          {
@@ -73,7 +83,7 @@ export const profileData: IProfile = {
             technologies: ["MERN", "Gemini API", "MongoDB", "Express.js", "React.js", "Node.js"],
             links: {
                 live: "https://skill-mint.vercel.app",
-                github: "https://github.com/Muhammadahmedanis/Skill_Mint.git"
+                github: "https://github.com/Muhammad-Ahmed-Official/Skill_Mint.git"
             }
         },
         
@@ -83,7 +93,7 @@ export const profileData: IProfile = {
             images: ["/assets/Chat App Mobile Mockup.png"],
             technologies: ["MERN", "Socket.io", "Cloudinary", "MongoDB", "Express.js", "React.js", "Node.js"],
             links: {
-                live: "https://chat-app-rq4w.onrender.com/",
+                live: "https://chat-app-rq4w.onrender.com",
                 github: "https://github.com/Huzaifa-Khan-Official/Chat-App"
             }
         },
@@ -93,8 +103,8 @@ export const profileData: IProfile = {
             images: ["/assets/Food.png"],
             technologies: ["Javascript", "Firebase", "CSS"],
             links: {
-                live: "https://mealwheels.netlify.app/",
-                github: "https://github.com/Muhammadahmedanis/foodDeliveryWeb-2"
+                live: "https://mealwheels.netlify.app",
+                github: "https://github.com/Muhammad-Ahmed-Official/foodDeliveryWeb-2"
             }
         },
         {
@@ -103,8 +113,8 @@ export const profileData: IProfile = {
             images: ["/assets/Disney.png"],
             technologies: ["React.js", "Firebase", "Redux Toolkit"],
             links: {
-                live: "https://disnyclone.netlify.app/",
-                github: "https://github.com/Muhammadahmedanis/DisneyClone"
+                live: "https://disnyclone.netlify.app",
+                github: "https://github.com/Muhammad-Ahmed-Official/DisneyClone"
             }
         },
         {
@@ -114,7 +124,7 @@ export const profileData: IProfile = {
             technologies: ["Next.js", "Shadcn", "Streamble", "Clerk"],
             links: {
                 live: "https://loom-clone-ruby.vercel.app",
-                github: "https://github.com/Muhammadahmedanis/Loom_Clone.git"
+                github: "https://github.com/Muhammad-Ahmed-Official/Loom_Clone.git"
             }
         },
         {
@@ -124,7 +134,7 @@ export const profileData: IProfile = {
             technologies: ["React.js", "Tailwind CSS", "React Query"],
             links: {
                 live: "https://ai-automation-eight.vercel.app",
-                github: "https://github.com/Muhammadahmedanis/Ai-Automation.git"
+                github: "https://github.com/Muhammad-Ahmed-Official/Ai-Automation.git"
             }
         },
     ],
