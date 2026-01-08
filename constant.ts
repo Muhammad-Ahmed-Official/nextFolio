@@ -3,26 +3,26 @@ import { IProfile } from "./types";
 export const profileData: IProfile = {
     hero: {
         name: "Muhammad Ahmed",
-        title: "MERN Stack Developer",
+        title: "Full Stack Developer",
         subtitle: "Building scalable web applications with modern technologies",
-        resume: "https://drive.google.com/file/d/1hhp7Znc7_VzXRjF7yOpW0ApU6AssyJgU/view?usp=drivesdk",
+        resume: "https://drive.google.com/file/d/1n03CorFzW5BD-46G7R47EPCd-EGNO79I/view",
         social_links: {
             github: "https://github.com/Muhammad-Ahmed-Official",
             linkedin: "https://www.linkedin.com/in/muhammad-ahmed-88b843202",
         },
     },
     about: {
-        description: "Passionate MERN Stack Developer with expertise in React, Node.js, and MongoDB. Dedicated to writing clean and scalable code, optimizing application performance, and mentoring aspiring developers.",
+        description: "Full-Stack Developer expertise in building scalable web applications using modern frontend and backend technologies. Focused on clean architecture, performance optimization, and delivering reliable, user-centric solutions.",
         expertise: [
             {
                 icon: "Palette",
                 title: "Frontend Development",
-                skills: ["React.js", "Next.js", "TypeScript", "Shadcn", "TailwindCSS", "Bootstrap", "Ant Design", "Material UI"],
+                skills: ["Javascript", "React.js", "Next.js", "TypeScript", "Shadcn", "TailwindCSS", "Bootstrap", "Ant Design", "Material UI"],
             },
             {
                 icon: "Server",
                 title: "Backend Development",
-                skills: ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "Firebase", "Redis", "BullMQ", "Cloudinary", "ImageKit"],
+                skills: ["Nest.js", "GraphQL", "Prisma ORM", "Node.js", "Express.js", "MongoDB", "PostgreSQL", "Firebase", "Redis", "BullMQ", "Cloudinary", "ImageKit"],
             },
             {
                 icon: "Code2",
@@ -56,7 +56,17 @@ export const profileData: IProfile = {
     ],
     // *************
     projects: [
-         {
+        {
+            title: "Invoice Horizon",
+            description: "Full-stack invoice management system built to help businesses efficiently create, track, and manage invoices. The platform automates overdue invoice detection and email reminders, supports bulk invoice downloads, and delivers a fast, installable PWA experience.",
+            images: ["/assets/Invoice.png"],
+            technologies: ["Full Stack", "Next.js", "PostgreSQL", "NestJS", "GraphQL", "Prisma", "Image Kit"],
+            links: {
+                live: "https://invoice-horizon.vercel.app",
+                github: "https://github.com/Muhammad-Ahmed-Official"
+            }
+        },
+        {
             title: "Ai Medical Agent",
             description: "Reimagining healthcare with AI — AI Medical Assistance, a SaaS platform where patients chat with an AI-powered doctor agent in real time, automatically generating clear, structured medical reports for faster, smarter care.",
             images: ["/assets/AI Medical Agent.png"],
